@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HelloWorld</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+
+        <resource-file src="res/android/notification/drawable-mdpi/ic_stat_ac_unit.png" target="app/src/main/res/drawable-mdpi/notif.png" />
+        <resource-file src="res/android/notification/drawable-hdpi/ic_stat_ac_unit.png" target="app/src/main/res/drawable-hdpi/notif.png" />
+        <resource-file src="res/android/notification/drawable-xhdpi/ic_stat_ac_unit.png" target="app/src/main/res/drawable-xhdpi/notif.png" />
+        <resource-file src="res/android/notification/drawable-xxhdpi/ic_stat_ac_unit.png" target="app/src/main/res/drawable-xxhdpi/notif.png" />
+        <resource-file src="res/android/notification/drawable-xxxhdpi/ic_stat_ac_unit.png" target="app/src/main/res/drawable-xxxhdpi/notif.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
